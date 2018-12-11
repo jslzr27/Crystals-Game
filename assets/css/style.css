@@ -1,7 +1,54 @@
-.crystal {
-    margin: 0;
+body {
+    background-image: url("../images/background.jpg");
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 18px;
+    line-height: 1.5;
 }
-
-#crystals {
-    margin: 0;
+.container {
+    width: 960px;
+    margin: auto;
+}
+.row {
+    margin: 5px auto;
+}
+#logo {
+    margin: 0 0 auto;
+    /*background-color: #B2DBD5;*/
+}
+img {
+    margin: auto;
+    padding: 0;
+}
+.random {
+    background-color: #2B616D;
+    margin-right: 5px;
+    color: #ffffff;
+}
+.winslosses {
+    background-color: #FA8D62;
+    color: brown;
+}
+.crystal {
+    margin: 0 5px 0 0;
+    height: 130px;
+    width: 130px;
+    background-color: #ffffff;    
+}
+.score {
+    background-color: #B2DBD5;
+    color: #2B616D;
+}
+.instructions {
+    background-color:#2B616D;
+}
+li {
+    line-height: 2;
+    color: #ffffff;
+}
+#randomnumber{
+    font-size: 36px;
+}
+#yourscore {
+    font-size: 36px;
 }

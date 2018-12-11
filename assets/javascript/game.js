@@ -20,7 +20,7 @@ $(document).ready(function (){
         yellowCrystal = Math.floor((Math.random() * 12) + 1);
 
         randomNumber = Math.floor((Math.random() * 120) + 1);
-        $("#randomnumber").text(randomNumber);
+        $("#randomnumber").text(' ' + randomNumber);
         
         userScore = 0
         $("#yourscore").text(userScore);
@@ -63,13 +63,13 @@ $(document).ready(function (){
         if(userScore > randomNumber){
             alert("YOU LOSE");
             losses = losses + 1
-            $("#totlosses").text(losses);
+            $("#totlosses").text(' ' + losses);
             gameStart();
         }
         else if(userScore === randomNumber){
             alert("YOU WIN!!!")
             wins = wins + 1
-            $("#totwins").text(wins);
+            $("#totwins").text(' ' + wins);
             gameStart();
         }
     }
