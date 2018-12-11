@@ -19,7 +19,7 @@ $(document).ready(function (){
         greenCrystal = Math.floor((Math.random() * 12) + 1);
         yellowCrystal = Math.floor((Math.random() * 12) + 1);
 
-        randomNumber = Math.floor((Math.random() * 120) + 1);
+        randomNumber = Math.floor(Math.random() * ((120-19)+ 1) +19);
         $("#randomnumber").text(' ' + randomNumber);
         
         userScore = 0
